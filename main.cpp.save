@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    Application app;//INSTANCE OF APPLICATION :TODO: -> Check what must be set
+
+    app.runApplication();//RUN APPLICATION
+
+    return 0;//END WITH NO PROBLEMS
+}
