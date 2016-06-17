@@ -32,7 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Application.cpp" />
 		<Unit filename="Application.h" />
+		<Unit filename="Shelter.cpp" />
+		<Unit filename="Shelter.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

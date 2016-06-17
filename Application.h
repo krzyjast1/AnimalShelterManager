@@ -4,6 +4,8 @@
 
 class Application
 {
+private:
+    bool first;
 
 public:
     Application();
