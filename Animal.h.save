@@ -1,0 +1,10 @@
+#pragma once
+
+class Animal
+{
+    std::string name[32];
+
+public:
+    Animal(char[], int);
+    ~Animal();
+};

@@ -2,6 +2,14 @@
 1466030425 source:c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\main.cpp
 	"Application.h"
 
-1466030440 c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\application.h
+1466632478 c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\application.h
 	<iostream>
+
+1466286828 source:c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\animal.cpp
+	"Animal.h"
+
+1466286828 c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\animal.h
+	<iostream>
+
+1466179466 source:c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\application.cpp
 

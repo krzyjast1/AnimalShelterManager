@@ -1,18 +1,20 @@
 #pragma once
 
 #include <iostream>
+#include <vector>
 
 class Shelter
 {
 private:
-    int limit = 50; //LIMIT OF ANIMALS IN SHELTER
-    const int ArSize = 32; //LETTERS LIMIT IN NAME
-    char[ArSize] name; //NAME OF SHELTER
-    enum Status{EMPTY, FULL, OVERFLOWED, AVAILABLE_PLACES};
+    int limit; //LIMIT OF ANIMALS IN SHELTER
+    std::string name; //NAME OF SHELTER
+    enum Status {EMPTY, FULL, OVERFLOWED, AVAILABLE_PLACES};
     int availablePlaces;
     int animals;
 
 ///TODO: MAKE LIST OF ANIMALS
+
+    std::vector <Animal> animals;
 
 protected:
     Status status;
@@ -27,10 +29,11 @@ public:
 
     /*GETTERS AND SETTERS*/
     void setLimit(int);
-    void setName(int);
-    void getLimit();
-    void getName();
-    void getStatus();
-    void getAvailablePlaces();
+    void setName(std::string);
+    int getLimit();
+    std::string getName();
+    Status getStatus();
+    int getAvailablePlaces();
+    int getAnimals();
 
 };

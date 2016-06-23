@@ -1,11 +1,13 @@
 #pragma once
 
+#include <iostream>
+
 class Application
 {
-    
+    enum 
 public:
     Application();
     ~Application();
-    
+
     void runApplication();
 };
