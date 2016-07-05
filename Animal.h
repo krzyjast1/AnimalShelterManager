@@ -8,5 +8,5 @@ class Animal
 
 public:
     Animal(std::string);
-    ~Animal();
+    ~Animal() {};
 };

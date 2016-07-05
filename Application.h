@@ -1,5 +1,8 @@
 #pragma once
 
+#include "Shelter.h"
+#include "Animal.h"
+
 #include <iostream>
 
 class Application

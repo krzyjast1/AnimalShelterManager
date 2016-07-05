@@ -20,5 +20,9 @@ void Application::runApplication()
     while(running)
     {
         getline(std::cin, command);
+
+        if(command == "exit") running = false;
+
+
     }
 }

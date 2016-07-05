@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Animal.h"
+
 #include <iostream>
 #include <vector>
 
@@ -10,7 +12,7 @@ private:
     std::string name; //NAME OF SHELTER
     enum Status {EMPTY, FULL, OVERFLOWED, AVAILABLE_PLACES};
     int availablePlaces;
-    int animals;
+    int animalCounter;
 
 ///TODO: MAKE LIST OF ANIMALS
 

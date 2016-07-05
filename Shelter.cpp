@@ -15,7 +15,11 @@ Shelter::~Shelter()
 
 void Shelter::addAnimal()
 {
+    std::string xName;
 
+    std::cin>>xName;
+
+    animals.push_back(Animal(xName));
 }
 
 void Shelter::deleteAnimal()
@@ -29,12 +33,14 @@ void Shelter::showAllAnimals()
 }
 
 /*GETTERS AND SETTERS*/
-void Shelter::setLimit(int sLimit) :limit(sLimit)
+void Shelter::setLimit(int sLimit)
 {
+    limit = sLimit;
 }
 
-void Shelter::setName(std::string sName) :name(sName)
+void Shelter::setName(std::string sName)
 {
+    name = sName;
 }
 
 int Shelter::getLimit()
@@ -59,5 +65,5 @@ int Shelter::getAvailablePlaces()
 
 int Shelter::getAnimals()
 {
-    return animals;
+    return animalCounter;
 }
