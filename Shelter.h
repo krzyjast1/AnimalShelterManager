@@ -28,6 +28,7 @@ public:
     void addAnimal();
     void deleteAnimal();
     void showAllAnimals();
+    void showStatus();
 
     /*GETTERS AND SETTERS*/
     void setLimit(int);

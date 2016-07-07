@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Animal.h"
+
 #include <iostream>
 #include <vector>
 
@@ -26,6 +28,7 @@ public:
     void addAnimal();
     void deleteAnimal();
     void showAllAnimals();
+    void showStatus();
 
     /*GETTERS AND SETTERS*/
     void setLimit(int);

@@ -1,10 +1,14 @@
 #pragma once
 
+#include <iostream>
+
 class Animal
 {
-    std::string name[32];
+    std::string name;
 
 public:
-    Animal(char[], int);
-    ~Animal();
+    Animal(std::string);
+    ~Animal() {};
+    
+    
 };

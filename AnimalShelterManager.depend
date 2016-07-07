@@ -2,7 +2,7 @@
 1466030425 source:c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\main.cpp
 	"Application.h"
 
-1467735136 c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\application.h
+1467915383 c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\application.h
 	"Shelter.h"
 	"Animal.h"
 	<iostream>
@@ -10,19 +10,21 @@
 1467735314 source:c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\animal.cpp
 	"Animal.h"
 
-1467735314 c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\animal.h
+1467916261 c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\animal.h
 	<iostream>
 
-1467735015 source:c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\application.cpp
+1467915933 source:c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\application.cpp
 	"Application.h"
 	<iostream>
 	<cstdlib>
+	<cstring>
+	<algorithm>
 
-1467735169 c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\shelter.h
+1467914909 c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\shelter.h
 	"Animal.h"
 	<iostream>
 	<vector>
 
-1467735237 source:c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\shelter.cpp
+1467915679 source:c:\users\kjj\desktop\programowanie\c++\animalsheltermanager\shelter.cpp
 	"Shelter.h"
 

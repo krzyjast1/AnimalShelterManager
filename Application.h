@@ -8,6 +8,7 @@
 class Application
 {
     bool running;
+    Shelter animalShelter;
 
 public:
     Application();

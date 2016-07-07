@@ -9,4 +9,7 @@ class Animal
 public:
     Animal(std::string);
     ~Animal() {};
+
+    /*GETTERS AND SETTERS*/
+    std::string getName();
 };

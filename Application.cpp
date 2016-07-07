@@ -1,11 +1,12 @@
 #include  "Application.h"
 #include <iostream>
 #include <cstdlib>
+#include <cstring>
+#include <algorithm>
 
 Application::Application()
-: running(true)
 {
-
+    running = true;
 }
 
 Application::~Application()
@@ -19,10 +20,34 @@ void Application::runApplication()
 
     while(running)
     {
+        std::cin.sync();
         getline(std::cin, command);
 
-        if(command == "exit") running = false;
+        std::transform(command.begin(), command.end(), command.begin(), ::tolower);
 
 
+            if(command == "exit")
+                return;
+            else if(command == "add_animal")
+            {
+                animalShelter.addAnimal();
+            }
+            else if(command == "delete_animal")
+            {
+                animalShelter.deleteAnimal();
+            }
+            else if(command == "status")
+            {
+                animalShelter.showStatus();
+                animalShelter.showAllAnimals();
+            }
+            else if(command == "")
+            {
+
+            }
+            else
+            {
+                std::cerr<<"unknown command. try again"<<std::endl;
+            }
     }
 }
