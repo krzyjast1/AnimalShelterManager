@@ -14,11 +14,8 @@ private:
     int availablePlaces;
     int animalCounter;
 
-///TODO: MAKE LIST OF ANIMALS
-
     std::vector <Animal> animals;
 
-protected:
     Status status;
 
 public:
@@ -30,9 +27,12 @@ public:
     void showAllAnimals();
     void showStatus();
 
+    void update();
+
     /*GETTERS AND SETTERS*/
     void setLimit(int);
     void setName(std::string);
+
     int getLimit();
     std::string getName();
     Status getStatus();

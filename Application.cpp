@@ -43,7 +43,7 @@ void Application::runApplication()
             }
             else if(command == "")
             {
-
+                std::cerr<<"unknown command. try again"<<std::endl;
             }
             else
             {

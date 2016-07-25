@@ -20,6 +20,7 @@ void Application::runApplication()
 
     while(running)
     {
+        std::cin.sync();
         getline(std::cin, command);
 
         std::transform(command.begin(), command.end(), command.begin(), ::tolower);
@@ -27,7 +28,7 @@ void Application::runApplication()
 
             if(command == "exit")
                 return;
-            if(command == "add_animal")
+            else if(command == "add_animal")
             {
                 animalShelter.addAnimal();
             }
@@ -39,6 +40,14 @@ void Application::runApplication()
             {
                 animalShelter.showStatus();
                 animalShelter.showAllAnimals();
+            }
+            else if(command == "")
+            {
+std::cerr<<"unknown command. try again"<<std::endl;
+            }
+            else
+            {
+                std::cerr<<"unknown command. try again"<<std::endl;
             }
     }
 }
